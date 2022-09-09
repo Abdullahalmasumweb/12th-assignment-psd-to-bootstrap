@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background-image: url("images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    color: azure;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 25px;
+}
+.header .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:focus{
+            background: url("images/divider.png");
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: auto; 
+}
+.header .navbar-nav .nav-link.active{
+            background: url("images/divider.png");
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            background-size: auto; 
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 60px 0px;
+}
+.inner-banner h4{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+.inner-banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.inner-banner p{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #999999;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.inner-button{
+    width: 100%;
+}
+.inner-button .btn-primary{
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.5s;
+}
+.inner-button .btn-light{
+    padding: 15px 40px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    color: rgb(20, 15, 15);
+    background: #b7bec2;
+    border: 1px solid #008ed6;
+    transition: 0.5s;
+}
+.inner-button .btn-light:hover, .inner-button .btn-light:focus{
+    color: rgb(255, 249, 249);
+    background: #1d1e1f;
+    border: 1px solid #008ed6;
+}
+.inner-button .btn-primary:hover, .inner-button .btn-primary:focus{
+    color: rgb(245, 245, 245);
+    background: #222425;
+    border: 1px solid #008ed6;
+}
+
+/*Global Css start*/
+
+.title{
+    width: 100%;
+    padding: 20px 0px;
+}
+.title h4{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+.title h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 2px;
+    color: rgb(20, 18, 18);
+}
+
+
+/*Global Css end*/
+
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .title{
+    text-align: center;
+}
+.feature .title img{
+    margin: 0px 0px 0px 0px;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+}
+.inner-feature .icon{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    line-height: 75px;
+    margin: 0px auto 30px;
+    border: 1px solid rgb(185, 182, 182);
+}
+.inner-feature .icon .fa{
+    font-size: 25px;
+    color: #2484b4;
+}
+.inner-feature h4{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000;
+    text-transform: capitalize;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+}
+
+/*About Start*/
+
+    .about{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .about .inner-about{
+        width: 100%;
+    }
+    .about .inner-about h6{
+        color: #008ed6;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .about .inner-about h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+        margin-bottom: 20px;
+    }
+    .about .inner-about p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: #999999;
+    }
+    .about .inner-about .list{
+        list-style: none;
+        padding-left: 0;
+    }
+    .about .inner-about li{
+        padding: 5px 0px 5px;
+        color: rgb(14, 13, 13);
+    }
+    .about .inner-about img{
+       padding-right: 5px;
+    }
+    .about .inner-about .b{
+        margin-left: 3px;
+    }
+    .about .inner-about .c{
+        margin-left: 3px;
+    }
+    .about .inner-about .d{
+        margin-left: 2px;
+    }
+
+/*About end*/
+
+/*Short Start*/
+
+.short{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background: #f2f2f2;
+}
+.short .inner-short{
+    width: 100%;
+    padding-top: 90px;
+}
+.short .inner-short h6{
+    color: #008ed6;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.short .inner-short h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.short .inner-short p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #999999;
+}
+
+/*Short End*/
+
+/*testimonial*/
+
+    .testimonial{
+        width: 100%;
+        background-image: url(images/bg2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #fff;
+    }
+    .testimonial .title{
+        width: 100%;
+        text-align: center;
+    }
+    .testimonial .title h1{
+        color: #fff;
+        font-size: 40px;
+    }
+    .testimonial .owl-carousel{
+        width: 100%;
+        padding: 40px 0px 0px;
+    }
+    .testimonial .owl-carousel .item{
+        width: 100%;
+    }
+    .testimonial .owl-carousel .item h4{
+        font-size: 23px;
+        line-height: 37px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .testimonial .owl-carousel .item .warast{
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 55px;
+        margin-bottom: 60px;
+    }
+    .testimonial .owl-carousel .item p{
+        margin-top: 10px;
+    }
+    .testimonial .owl-carousel .item h6{}
+
+/*testimonial*/
+
+/*Eye*/
+.eye{
+    width: 100%;
+    background-color: #09090a;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.eye .inner-button{
+    width: 100%;
+    text-align: center;
+}
+.eye .col-lg-6 h2{
+    
+}
+    .eye .btn-primary{
+        padding: 15px 40px;
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 2px;
+        color: rgb(20, 15, 15);
+        background: #b7bec2;
+        border: 1px solid #008ed6;
+        transition: 0.5s;
+    }
+    .eye .btn-light{
+        padding: 15px 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 2px;
+        color: #fff;
+        background: #008ed6;
+        border: 1px solid #008ed6;
+        transition: 0.5s;
+    }
+
+/*Eye*/
+
+/*pricing start*/
+
+    .pricing{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .pricing .col-lg-12{
+        text-align: center;
+    }
+    .pricing .col-lg-12 h6{
+        font-size: 17px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #08b5b5;
+    }
+    .pricing img{
+        margin-bottom: 55px;
+        margin-top: 30px;
+    }
+    .pricing .inner-pricing h3 {
+        font-size: 25px;
+        font-weight: 500;
+        padding: 15px 0px 15px 0px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .inner-pricing{
+        width: 100%;
+        /*padding: 40px 0px;*/
+        border: 1px solid #eee;
+        text-align: center;
+    }
+    .inner-pricing .pricing-head{
+        width: 100%;
+        padding: 20px 0px;
+        border-bottom: 1px solid #eee;
+    }
+    .inner-pricing .pricing-head h4{
+        margin: 0;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #000;
+    }
+    .inner-pricing .main-price{
+        width: 100%;
+        padding: 40px 0px;
+        border-bottom: 1px solid #eee;
+    }
+    .inner-pricing .main-price h1{
+         font-size: 60px;
+         line-height: 70px;
+         font-weight: 700;
+         color: #000;
+         margin: 0;
+    }
+    .inner-pricing .main-price h1 sup{
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+    }
+    .inner-pricing .main-price p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #999;
+        margin: -5px 0px 0px;
+    }
+    .pricing .content{
+        width: 100%;
+        padding: 60px 50px;
+    }
+    .content p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #999;
+    }
+    .content p>a{
+        text-decoration: none;
+    }
+    .content .btn-primary{
+        padding: 13px 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 2px;
+        color: rgb(4, 116, 160);
+        background: #fff;
+        border: 1px solid rgb(218, 215, 215);
+        transition: 0.5s;
+        margin-top: 40px;
+    }
+    .content .btn-primary:hover,.content .btn-primary:focus{
+        color: #dfdfdf;
+        background-color: #0a8585;
+        transition: 0.5s;
+    }
+    .inner-pricing:hover .pricing-head h4{
+        color: #008ed6;
+        transition: 0.5s;
+    }
+    .inner-pricing:hover .main-price{
+        background-color: #008ed6;
+        transition: 0.5s;
+    }
+    .inner-pricing:hover .main-price h1{
+        color: #fff;
+        transition: 0.5s;
+    }
+    .inner-pricing:hover .main-price h1 sup{
+        color: #fff;
+        transition: 0.5s;
+    }
+    .inner-pricing:hover .main-price p{
+        color: #fff;
+        transition: 0.5s;
+    }
+
+/*pricing end*/
+
+/*blist*/
+    .blist{
+        width: 100%;
+        background-color: #ededed;
+        padding-top: 30px;
+    }
+    .blist .title{
+        text-align: center;
+    }
+    .blist .col-lg-4{
+        text-align: center;
+    }
+    .blist img{
+        padding-bottom: 30px;
+    }
+    .blist p{
+        font-size: 14px;
+        color: #b2b2b2;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .blist .contact-form{
+        width: 100%;
+        background: #15141a;
+        padding: 70px 50px 50px;
+        margin-top: 50px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -70px;
+    }
+    .blist .btn-primary{
+        padding: 15px 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 2px;
+        color: rgb(20, 15, 15);
+        background: #b7bec2;
+        border: 1px solid #008ed6;
+        transition: 0.5s;
+    }
+    .blist .submit{
+        text-align: right;
+    }
+    .blist .btn-primary:hover, .blist .btn-primary:focus{
+        color: rgb(255, 249, 249);
+        background: #1d1e1f;
+        border: 1px solid #008ed6;
+    }
+    .contact-form .form-control{
+        padding: 17px 12px;
+        border-radius: 2px;
+        font-size: 14px;
+        text-transform: uppercase;
+        background: transparent;
+        color: #999;
+        border: 1px solid #999;
+    }
+    .contact-form .form-control:focus{
+        background: transparent;
+        border: 1px solid #999;
+        box-shadow: 0 0 0 #999;
+    }
+/*blist*/
+
+.footer{
+    padding: 30px 30px;
+    background: #09090a;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 10px 20px;
+  
+}
+.footer p{
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
